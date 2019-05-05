@@ -1,0 +1,228 @@
+.box{
+    /* max-width: 640px; */
+    margin: 0 auto;
+}
+/* 返场 狗 */
+.header{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    position: relative;
+}
+a img{
+    width: 100%;
+}
+.header p{
+    text-align: center;
+    margin: 0 0.65rem;
+    font-size: 0.36rem;
+    line-height: 50px;
+    color: #333;
+}
+.header .left-back{
+    width: 35px;
+    height: 35px;
+    background: url(../images/imgw/encore.png) no-repeat;
+    background-size: 35px auto;
+    position: absolute;
+    left: 5px;
+    top: 7px;
+}
+.header .right-more{
+    width: 35px;
+    height: 35px;
+    background: url(../images/imgw/encore.png) no-repeat;
+    background-size: 35px auto;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    background-position: 0 -70px;
+}
+/* menu */
+.menuBox{
+    height: 65px;
+    background: #fff;
+    border-top: 0.01rem solid #e0d4d4;
+    display: flex;
+}
+.header .active{
+    display: none;
+}
+.menuBox .it{
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    padding-top: 11px;
+    display:block;
+    width: 1.87rem;
+    height: 0.65rem;
+}
+.menuBox .it .mun1,.menuBox .it .mun2,.menuBox .it .mun3,.menuBox .it .mun4{
+    background: url(../images/imgw/encore1.png) no-repeat;
+    background-position: -172px -7px;
+    display: block;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    background-size: 234px 163px;
+}
+.menuBox .it .let{
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+/* content */
+.content{
+    min-height: 300px;
+}
+.cont{
+    width: 100%;
+    display: block;
+}
+.content .day img{
+    max-width: 100%;
+}
+.content .blood{
+    overflow: hidden;
+}
+.content a img{
+    width: 100% ;
+}
+.content .blood img{
+    height: 2.63rem;
+}
+.content .quality img{
+    height: 10.24rem;
+}
+.content .surprise{
+    font-size: 0;
+}
+.content .expelling img{
+    height: 3.09rem;
+}
+.content .new img{
+    height: 3.08rem;
+}
+.content .favour img{
+    height: 3.09rem;
+}
+.content .spoil img{
+    height: 3.08rem;
+}
+.mould1{
+    width: 100%;
+    margin-bottom: 0.2rem;
+    background-color: rgb(130, 5, 249);;
+}
+
+.mould_210{
+    margin: 0 0.1rem;
+}
+.content .lis{
+    position: relative;
+    /* height: 2.31rem; */
+}
+.content .lis img{
+    width: 100%;
+}
+.content .li{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -1px;
+    height: 0.42rem;
+}
+.content .li{
+    width: 100%;
+}
+.content .swiper-container{
+   background-color: #fff;
+   margin: 0 0.1rem;
+   display: flex;
+   padding: bottom 0.1rem;;
+    padding-top: 0.2rem;
+    height: 3.336rem;
+}
+.content .swiper-slide {
+    width: 2.02rem !important
+}
+.content .swiper-slide .db1{
+    display: block;
+    margin-left: 0.15rem
+}
+.content .swiper-slide .red{
+    font-size: 0.28rem;
+    color: #f03e3e;
+    font-weight: 700;
+    text-align: center;
+}
+.content .swiper-slide .del{
+    text-decoration: line-through;
+    margin-top: -0.05rem;
+    font-size: 0.28rem;
+    text-align: center;
+    color: #666;
+}
+ .icon{
+     height: 0.62rem;
+    margin-bottom: 0.4rem;
+    background: rgb(130, 5, 249)
+}
+.ic{
+    box-shadow: 1px 2px 25px 0px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    background: #fff;
+    padding: 0.15rem 0px 0.15rem 0.15rem;
+    margin: 0px 0.1rem 0px 0.1rem;
+    text-align: center;
+    height: 0.62rem;
+}
+.icon .ic .swiper-container{
+    position: relative;
+    top: -0.72rem;
+}
+.icon .ic .swiper-container .swiper-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+ .swiper-container .swiper-wrapper .swiper-slide{
+    width: 1.97143rem;
+    margin-right: 0.1rem;
+}
+.icon .ic a img{
+    height: 0.32rem;
+    width: 0.64rem;
+}
+.default_bg{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.default_bg img{
+    height: 1.85rem;
+    width: 100%;
+}
+.divboximg{
+    display: flex;
+}
+.divboximg img{
+    height: 3.39rem;
+}
+.divboximg a{
+    display: block;
+    overflow: hidden;
+}
+.lg{
+    height: 3.75rem
+}
+.backtop{
+    background: url(../images/imgw/3png.png) no-repeat;
+    position: fixed;
+    right:10px;
+    width: 28px;
+    height: 28px;
+    background-size: 100% auto;
+    bottom: 50px
+}

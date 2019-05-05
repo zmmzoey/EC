@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.all {
+  max-width: 7.5rem;
+  margin: auto;
+  background-color: #fff;
+}
+.flex {
+  display: flex;
+}
+/* 头部样式 */
+.headbox {
+  width: 100%;
+}
+.headbox .header {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  line-height: 50px;
+  color: #333;
+  position: relative;
+}
+.headbox .border-b:before {
+  border-bottom: 1px solid #e5e5e5;
+  bottom: 0;
+}
+.header .left-back {
+  width: 35px;
+  height: 35px;
+  background: url(../images/imgh/icon.png) 0 0 no-repeat;
+  background-size: 35px auto;
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  background-position: 0 0;
+}
+.header .header-text {
+  text-align: center;
+  margin: 0 65px;
+  font-size: 18px;
+}
+.header .right-more {
+  width: 35px;
+  height: 35px;
+  background: url(../images/imgh/icon.png) 0 0 no-repeat;
+  background-size: 35px auto;
+  position: absolute;
+  right: 5px;
+  top: 7px;
+  background-position: 0 -70px;
+}
+.headbox .active {
+  display: none;
+}
+.headbox .menubox .menu-nav {
+  width: 100%;
+  height: 65px;
+  background: #fff;
+}
+.headbox .menubox .menu-nav a {
+  width: 25%;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  padding-top: 0.11rem;
+}
+.headbox .menubox .menu-nav a span {
+  display: block;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  background: url(../images/imgh/menu.png) 0 0 no-repeat;
+  background-size: 234px 163px;
+}
+.headbox .menubox .menu-nav a .ico1 {
+  background-position: -172px -7px;
+}
+.headbox .menubox .menu-nav a .ico2 {
+  background-position: -172px -49px;
+}
+.headbox .menubox .menu-nav a .ico3 {
+  background-position: -172px -90px;
+}
+.headbox .menubox .menu-nav a .ico4 {
+  background-position: -172px -133px;
+}
+/* 主体样式  */
+.moudle .moud {
+  font-size: 0;
+  width: 100%;
+  margin-bottom: 0.4rem;
+}
+/* banner */
+.moudle .banner {
+  width: 100%;
+  height: 4.8rem;
+}
+/* 左右分布 */
+.moudle .leibie div {
+  width: 50%;
+  float: left;
+}
+.moudle .leibie div a {
+  width: 100%;
+}
+.moudle .leibie div a img {
+  width: 100%;
+}
+.moudle .ab a {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+/* 狗粮的营养需求 */
+.moudle .yingyang {
+  width: 100%;
+}
+.moudle .yingyang div {
+  width: 50%;
+  float: left;
+}
+/* 超值增重套餐 */
+.moudle .tongyang {
+  box-shadow: 0px 5px 12.5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background: #fff;
+  width: 97%;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.moudle .tongyang .weichi {
+  position: relative;
+}
+.moudle .tongyang .weichi a .img1 {
+  border-radius: 15px;
+  height: 232.394px;
+  vertical-align: middle;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.moudle .tongyang .weichi .hu {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: -1px;
+}
+.moudle .tongyang .weichi .hu img {
+  z-index: 10;
+}
+.moudle .tongyang #wrapper {
+  padding-top: 20px;
+  width: 100%;
+  height: 2.5rem;
+  overflow: hidden;
+}
+.moudle .tongyang #wrapper ul {
+  width: 12.2rem;
+  height: 100%;
+  list-style: none;
+}
+.moudle .tongyang #wrapper li {
+  float: left;
+  width: 2.03rem;
+  height: 2.24rem;
+}
+.moudle .tongyang #wrapper li a {
+  margin-left: 15px;
+  display: block;
+}
+.moudle .tongyang #wrapper li a img {
+  width: 100%;
+}
+.moudle .tongyang #wrapper li a .p1 {
+  font-size: 14px;
+  color: #ff5757;
+  font-weight: 700;
+  text-align: center;
+}
+.moudle .tongyang #wrapper li a .p2 {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+/* 超值增重狗粮下的品牌 */
+.moudle .fangan {
+  height: 0.62rem;
+}
+.moudle .fangan .fang {
+  box-shadow: 1px 2px 25px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background: #fff;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin: 0px 10px;
+  text-align: center;
+}
+.moudle .fangan #wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  height: 0.32rem;
+  width: 100%;
+}
+.moudle .fangan #wrapper ul {
+  width: 18.8rem;
+  height: 100%;
+  list-style: none;
+}
+.moudle .fangan #wrapper ul li {
+  height: 100%;
+  float: left;
+  width: 197.143px;
+  margin-right: 10px;
+}
+.moudle .fangan #wrapper ul li a {
+  width: 100%;
+}
+.moudle .fangan #wrapper ul li a img {
+  height: 32px;
+  width: 64px;
+  vertical-align: middle;
+  margin-left: 30%;
+}
+/* 猜你喜欢 */
+.moudle .most .square{
+    display: inline-block;
+    margin-left: 5px;
+    width: 49%;
+    padding: 0 5px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 0.4rem;
+}
+.moudle .most .square .tiaozhuan{
+    display: block;
+    padding: 15px;
+}
+.moudle .most .square .tiaozhuan .baozhuang{
+    width: 200px;
+    height: 200px; 
+    margin: 0 auto;
+}
+.c33{
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    height: 32px;
+    line-height: 16px;
+}
+.c44{
+    font-size: 10px;
+    color: #f03e3e;
+    margin-top: 3px;
+    font-weight: 700;
+}
+.moudle .most .square .c11{
+    margin: 0 15px;
+}
+.moudle .most .square .c11 .buy{
+    width: 26px;
+    height: 26px;
+    float: right;
+    margin-bottom: 15px;
+}

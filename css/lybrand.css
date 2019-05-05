@@ -1,0 +1,80 @@
+.content{
+    width: 100%;
+
+}
+.brand-sale .banner{
+    width: 100%;
+}
+.brand-sale .banner img{
+    width: 100%;
+}
+body{
+    max-width: 750px;
+    margin: 0 auto;
+    background: #f3f4f5;
+}
+.mid_nav{
+    margin-bottom: 10px;
+    background: #fff;
+}
+.mid_nav>ul {
+    width: 100%;
+    height: 45px;
+}
+.mid_nav>ul li{
+    float: left;
+    width: 25%;
+    color: #333;
+    font-size: 13px;
+    text-align: center;
+    line-height: 43px;
+}
+.mid_nav>ul li.active{
+    border-bottom: 2px solid #f03e3e;
+    color: #f03e3e;
+}
+
+.detial{
+    width: 100%;
+}
+.detial .com1{
+    width: 100%;
+    font-size: 0;
+    background: #fff;
+}
+.detial .com1>img{
+    width: 100%;
+}
+.detial .com1>ul{
+    width: 100%;
+}
+.detial .com1>ul>li{
+    margin: 10px;
+}
+.detial .com1>ul>li>a>div{
+    margin: 0 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.com1>ul>li>a>div>img{
+    width: 100%;
+}
+.com1 .title{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+.com1 .title img{
+    height: 26px;
+    width: 100px;
+}
+.com1 .title span{
+    position: absolute;
+    top: 0;
+    left: 31%;
+    line-height: 24px;
+    height: 21px;
+    font-size: 12px;
+    color: #fff;
+}

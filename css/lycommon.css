@@ -1,0 +1,73 @@
+.header{
+    width: 100%;
+    background: #fff;
+}
+.header .title{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #ededed;
+}
+.header .title .left-back{
+    width: 35px;
+    height: 35px;
+    background: url(../images/Egroups/topIco.png) 0 0 no-repeat;
+    background-size: 35px auto;
+    background-position: 0 0;
+}
+.header .title div:nth-child(2){
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+}
+.header .title .right-more{
+    width: 35px;
+    height: 35px;
+    background: url(../images/Egroups/topIco.png) 0 0 no-repeat;
+    background-size: 35px auto;
+    background-position: 0 -70px;
+}
+.header .menu_list{
+    display: flex;
+    height: 65px;
+}
+.header .menu_list a{
+    flex: 1;
+    padding-top: 10px;
+}
+.header .menu_list a span{
+    display: block;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    
+}
+.header .menu_list a p{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.header .menu_list a:nth-child(1) span{
+     background: url(../images/Egroups/navIco.png) 0 0 no-repeat;
+     background-position: -172px -7px;
+     background-size: 234px 163px;
+}
+.header .menu_list a:nth-child(2) span{
+    background: url(../images/Egroups/navIco.png) 0 0 no-repeat;
+    background-position: -172px -49px;
+    background-size: 234px 163px;
+}
+.header .menu_list a:nth-child(3) span{
+    background: url(../images/Egroups/navIco.png) 0 0 no-repeat;
+    background-position: -172px -90px;
+    background-size: 234px 163px;
+}
+.header .menu_list a:nth-child(4) span{
+    background: url(../images/Egroups/navIco.png) 0 0 no-repeat;
+    background-position: -172px -133px;
+    background-size: 234px 163px;
+}

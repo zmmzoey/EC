@@ -1,0 +1,171 @@
+body{
+    background-color: #fff;
+}
+.index{
+    max-width: 750px;
+    margin: 0 auto;
+}
+.header{
+    height: 12.25rem;
+    width: 100%;
+    /* background-color: thistle; */
+    position: relative;
+}
+.header .banner .swiper-wrapper{
+    height: 100%;
+    width: 100%;
+}
+.header .banner .swiper-wrapper img{
+    width: 100%;
+}
+.header .banner {
+    width: 100%;
+    height: 5.8rem;
+
+}
+.header .banner .swiper-slide {
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.header .banner .swiper-pagination-bullet{
+    border: 1px solid rgb(144, 106, 106);
+    background-color: transparent;
+    opacity: 1;
+}
+.header .banner .swiper-pagination-bullet-active{
+    background-color: rgb(126, 112, 209)
+}
+.header .topMenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 1;
+    /* background-color: cadetblue; */
+}
+.header .topMenu .search{
+    margin-top: 25px;
+    padding: 0 0.15rem;
+    height: 30px;
+    /* background-color: thistle; */
+}
+.header .topMenu .search .srh{
+    height: 100%;
+    width: 6.6rem;
+    border-radius: 0.3rem;
+    outline: none;
+    background-color: #fff;
+    border: #fff;
+    padding: 0 15px 0 30px;
+    background-image: url(../images/imgm/search.png);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
+
+}
+.header .topMenu .search .msg span{
+    display: block;
+    height: 25px;
+    width: 25px;
+    background-image: url(../images/imgm/massage.png);
+    background-size: 25px 25px;
+}
+.header .topMenu .nav {
+    width: 100%;
+    height: 45px;
+  }
+.header .topMenu .swiper-slide {
+    text-align: center;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .header .topMenu .swiper-slide a{
+    font-size: 14px;
+    color: #fff;
+  }
+  .header .promotion{
+      position: absolute;
+      top: 5.2rem;
+      left: 0;
+      height: 2.3rem;
+      width: 100%;
+      /* background-color: slategrey; */
+      z-index: 1;
+  }
+  .header .promotion ul{
+      height: 100%;
+      width: 100%;
+  }
+  .header .promotion ul li{
+      float: left;
+      height: 100%;
+      width: 20%;
+      /* background-color: yellowgreen; */
+  }
+  .header .promotion ul img{
+    width: 1.5rem;
+  } 
+  .header .promotion img{
+    width: 100%;
+  }
+  .con1{
+    margin-top: 30px;
+  }
+  .con1 img{
+    width: 3.75rem;
+  }
+  .con2{
+    margin: 20px 0;
+  }
+  .con2 img{
+    width: 7.5rem;
+  }
+  .con3{
+    margin: 20px 10px;
+    box-shadow: 1px 2px 25px 0px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    height: 2.4rem;
+    width: 7.3rem;
+    background-color: slateblue;
+  }
+  .con3 .fl{
+     width: 50%;
+     height: 100%;
+     border:1px solid salmon; 
+  }
+  .con3 .fl .title{
+      height: 25px;
+      width: 100%;
+      background-color: #fff;
+  }
+  .con3 .fl .title img{
+      height: 16px;
+
+  }
+  

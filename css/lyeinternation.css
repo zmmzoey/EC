@@ -1,0 +1,94 @@
+.content{
+    max-width: 640px;
+    margin: 0 auto;
+}
+.body{
+    font-size: 16px;
+}
+.e-header{
+    width: 100%;
+    padding: 0 16px;
+    height: 50px;
+    position: relative;
+}
+.e-header p{
+    line-height: 50px;
+    font-size: 0.1rem;
+    text-align: center;
+}
+.e-header>a{
+    background: url(../images/lyinternation/personal-bico1.png) no-repeat;
+    background-size: 9px 17px;
+    display: block;
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    margin-top: 16px;
+}
+.e-header a img{
+    display: block;
+    width: 22px;
+    height: 20px;
+}
+.e-banner{
+    width: 100%;
+}
+.e-banner img{
+    width: 100%;
+}
+.epethk,.Eservice,.footer{
+    text-align: center;
+    color: #7a45e5;
+   margin-top: 30px;
+}
+.epethk>h1,.Eservice>h1,.footer>h1{
+    font-size: 22px;
+    text-shadow: 5px 2px 6px #f5f1ff;
+    margin-bottom: 1px;
+}
+.epethk>p,.Eservice>p,.footer>p{
+    letter-spacing: 3px;
+    text-shadow: 5px 2px 6px #f5f1ff;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.epethk .eguide-con{
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.eguide-con li p{
+    display: inline-block;
+    width: 50%;
+}
+.eguide-con li{
+    margin-bottom: 10px;
+    color: #786b91;
+    /* display: flex; */
+}
+.eguide-con li img{
+    width: 40%;
+}
+.service-con{
+    margin-top: 10px;
+    padding: 10px;
+}
+.Eservice .service-con>p{
+    font-size: 14px;
+    color: #786b91;
+    margin-bottom: 5px;
+}
+.Eservice .service-con>.c999{
+    color: #999;
+}
+.Eservice .service-con>img{
+    width: 100%;
+}
+.buy,.buy img{
+    width: 100%;
+}
+.footer .eguide-con{
+    margin-top: 15px;
+}
+.footer .eguide-code{
+    width: 65%;
+}

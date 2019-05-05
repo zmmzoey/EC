@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  div {
+    display: block;
+  }
+  a{
+      color: #333;
+      text-decoration: none;
+  }
+  img {
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+  }
+  .all {
+    max-width: 7.5rem;
+    margin: auto;
+    background-color: #fff;
+  }
+  .flex {
+    display: flex;
+  }
+  .fl{
+      float: left;
+  }
+  .fr{
+      float: right;
+  }
+  .header{
+    padding: 0 15px;
+    border-bottom: 1px solid #cbcbcb;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 40px;
+    z-index: 11;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .header .left{
+    width: 50%;
+    text-align: right;
+    padding-right: 5%;
+    line-height: 40px;
+  }
+  .header .right{
+    width: 50%;
+    padding-left: 5%;
+    line-height: 40px;
+  }
+  .header .right .search-ico{
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    width: 14px;
+    height: 14px;
+  }
+  .header .active{
+    color: #FF5757;
+    border-bottom: 2px solid #FF5757;
+    /* border-bottom-width: 20px; */
+  }
+  .header div a span{
+  display: inline-block;
+  height: 40px;
+  padding: 0 4px;
+  cursor: pointer;
+ }
+ .main{
+     margin-top: 40px;
+     width: 100%;
+     height: 500px;
+     background-color: #666;
+ }
+ .main #tab2{
+     display: none;
+ }
