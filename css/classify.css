@@ -7,8 +7,10 @@
     display: block;
   }
   a{
+    display: inline-block;
       color: #333;
       text-decoration: none;
+      cursor: pointer;
   }
   img {
     width: 100%;
@@ -78,4 +80,50 @@
  }
  .main #tab2{
      display: none;
+ }
+ /* 底部 */
+ .foot{
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  height: 52px;
+  line-height: 52px;
+  bottom: 0;
+  left: 0;
+  box-sizing: content-box;
+  border-top: 1px solid #e7e7e7;
+ }
+ .foot ul{
+  width: 100%;
+ }
+ .foot ul li{
+   float: left;
+   width: 20%;
+   height: 52px;
+   line-height:52px;
+   text-align: center;
+ }
+ .foot ul li a{
+  background: url(../images/imgh/icon2.png) no-repeat;
+  background-size: 385px auto;
+  margin: 0 auto;
+  height: 60px;
+  width: 45px;
+  margin-top: 4px;
+  
+ }
+ .foot ul li .a1{
+  background-position: 0 -2px;
+ }
+ .foot ul li .a2{
+  background-position:-52px -58px;
+ }
+ .foot ul li .a3{
+  background-position: -181px -2px;
+ }
+ .foot ul li .a4{
+  background-position: -113px -2px;
+ }
+ .foot ul li .a5{
+  background-position: -255px -2px;
  }
