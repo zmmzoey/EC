@@ -1,0 +1,11 @@
+.message{
+    font-size: 0;
+
+}
+.message div{
+    margin:  10px 0;
+    padding: 0px 10px;
+}
+.message div img{
+    width: 100%;
+}
