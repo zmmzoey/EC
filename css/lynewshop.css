@@ -9,3 +9,67 @@
 .message div img{
     width: 100%;
 }
+.swiper-pagination {
+    top: 1.85rem;
+}
+.swiper-container .swiper-pagination .swiper-pagination-bullet-active{
+    background: #fff;
+    width: 15px;
+    border-radius: 10px;
+}
+.lists-tab{
+    height: 44px;
+    background: #fefefe;
+}
+.lists-tab span{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    line-height: 20px;
+}
+.lists-tab .a{
+    width: 50%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    float: left;
+    font-size: 14px;
+   
+}
+.lists-tab .active span::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url(../images/newshop/diamond.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    top: 0;
+    left: -26px;
+}
+.right-nav{
+    height: 30px;
+    line-height: 20px;
+    background: #fefefe;
+    padding-bottom: 10px;
+}
+.right-nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+.right-nav ul li{
+    font-size: 14px;
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+.right-nav ul .con::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 4px;
+    height: 12px;
+    border-right: 1px solid #ccc;
+}
