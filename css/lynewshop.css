@@ -1,0 +1,149 @@
+.message{
+    font-size: 0;
+
+}
+.message div{
+    margin:  10px 0;
+    padding: 0px 10px;
+}
+.message div img{
+    width: 100%;
+}
+.swiper-pagination {
+    top: 1.85rem;
+}
+.swiper-container .swiper-pagination .swiper-pagination-bullet-active{
+    background: #fff;
+    width: 15px;
+    border-radius: 10px;
+}
+.lists-tab{
+    height: 44px;
+    background: #fefefe;
+}
+.lists-tab span{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    line-height: 20px;
+}
+.lists-tab .a{
+    width: 50%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    float: left;
+    font-size: 14px;
+   
+}
+.lists-tab .active span::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url(../images/newshop/diamond.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    top: 0;
+    left: -26px;
+}
+.right-nav{
+    height: 30px;
+    line-height: 20px;
+    background: #fefefe;
+    padding-bottom: 10px;
+}
+.right-nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+.right-nav ul li{
+    font-size: 14px;
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+.right-nav ul .con::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 4px;
+    height: 12px;
+    border-right: 1px solid #ccc;
+}
+.shop-lists{
+    position: relative;
+    height: 2000px;
+}
+.mui-table-view{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mui-table-view li{
+    width: 50%;
+    padding: 0 4px 0 5px;
+    margin-bottom: 7px;
+}
+.mui-table-view li>div{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding-bottom: 10px;
+}
+.mui-table-view li>div>a{
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+.mui-table-view li>div>a>img{
+    width: 100%;
+}
+.mui-table-view li>div>div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mui-table-view li>div>div>a{
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+}
+.mui-table-view li>div>div>.price{
+    color: #ff5757;
+    font-size: 10px;
+    position: relative;
+} 
+.mui-table-view li>div>div> .trips{
+    height: 20px;
+    font-size: 11px;
+    line-height: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    color: #999;
+    margin-top: 5px;
+}
+.mui-table-view li>div>div>.price span{
+    font-size: 15px;
+    font-weight: 700;
+}
+.mui-table-view li>div>div>.price em{
+    width: 25px;
+    height: 25px;
+    background: url(../images/newshop/shopcar.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    top: -10px;
+    right: 0;
+    position: absolute;
+    font-style: normal;
+}

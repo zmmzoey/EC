@@ -1,0 +1,99 @@
+
+body{background:#fff5d2}
+.headerText{margin:0 65px;text-align:center;font-size:18px;line-height:50px}
+.left-back{width:35px;height:35px;position:absolute;left:5px;top:7px;background:url(../images/liuimgs/icon.png);background-position: 0px 0px;background-size:35px auto}
+.right-more{width:35px;height:35px;position: absolute;right:5px;top:7px;background: url(../images/liuimgs/icon.png);background-position: 0 -70px;background-size:35px auto}
+.main{max-width:640px;margin:auto}
+.rela{position:relative}
+.abs{position:absolute}
+.ft14{font-size:14px}
+.cwhite{color:white}
+.ft12{font-size:12px}
+.db{display:block}
+.w100{width:100}
+.mt20{margin-top:20px}
+.ftc{text-align:center}
+.imgBOx-img{display:block;width:100%}
+.egoInfo{height:40px;line-height:40px;text-align:center;position:absolute;left:10%;bottom:0;width:80%;background:url(../images/liuimgs/titlebg.png);background-size:100% 100%}
+.gorule{color:#fff8df;top:10px;left:10px}
+.egoInfo .dog{z-index: 10;bottom:75%;width:40%;left:30%;display:block}
+.cyelow{color:#f9df06;font-size:18px;vertical-align: bottom;margin-left:5px;margin-right:5px}
+.egoPd1{z-index:2;background:url(../images/liuimgs/egobg.png) no-repeat;background-size:100% 100%;}
+.newitems{width:65%;background:url(../images/liuimgs/ninebg.png) no-repeat;background-size:100% 100%;margin:0 auto;-webkit-border-radius: 15px;padding:0.17rem}
+.itemsBox{background:#ff6a6a;-webkit-border-radius:15px;padding:0.08rem;}
+.itemsBox-item{height:1.2rem;overflow: hidden;display:flex;justify-content: space-around;align-items: center;}
+.lottery-unit{width:1.13rem;height:1.13rem;background:url(../images/liuimgs/gitsBg.png) 0 0 no-repeat;background-size:contain;float:left;display:inline;padding:0.15rem 0 0}
+.lottery-unit-img{width:0.64rem;height:0.64rem;display:block;margin:0 auto}
+.lottery-unit-text{font-size:0.15rem;text-align:center;color:#88141a;font-weight:700}
+#cjBtn5{background:url(../images/liuimgs/cjBtn5.png) 0 0 no-repeat;background-size:contain}
+.tip1{display:inline-block;color:#fff;font-size:10px;width:0.44rem;height:0.37rem;text-align:center;line-height:0.37rem;background:url(../images/liuimgs/tip1.png) no-repeat;background-size:100% 100%;top:-5px;right:0px;position:absolute}
+.tip2{position:absolute;display:inline-block;color:#fff;font-size:10px;width:0.39rem;height:0.19rem;text-align:center;line-height: 0.19rem;background:url(../images/liuimgs/tip2.png) no-repeat;background-size:100% 100%;top:-5px;right:0}
+.tip3{position:absolute;display:inline-block;color:#fff;font-size:10px;width:0.34rem;height:0.32rem;text-align:center;line-height:0.32rem;background:url(../images/liuimgs/tip3.png);background-size:100% 100%;top:-5px;right:0}
+.right{overflow:hidden;color:#ff4f4f;background:url(../images/liuimgs/negobg2.jpg) no-repeat;background-size:100% 100%;text-align:center;}
+ .right .sound{background:#ff6464;margin-left:0.4rem;border:2px solid #ff8484;border-top-left-radius: 20px;border-bottom-left-radius:20px;position:relative;padding-left:15px;padding-bottom:5px;padding-top:5px;margin-top:15px;text-align:left}
+.sound-img{width:15px;margin:0;top:12px;vertical-align: middle;display:inline-block;position:absolute;}
+.right-text{font-size:13px;padding-top:20px;}
+.right-img{width:70%;margin:20px auto 0;display:block}
+.rbtn{ background:#999; display:block; width:50%; padding:10px 0; margin:25px auto ; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -ms-border-radius:30px; -o-border-radius:30px;color:#fff;font-size:16px;}
+.fusion{background:url(../images/liuimgs/negobg3.jpg) no-repeat;background-size:100% 100%}
+.fusion-img{display:block;width:55%;margin:0 auto}
+.swiper-slide{background:#ff6767;padding:25px 0;}
+.swiper-container{margin-top:20px;text-align:center;margin:0 auto;position:relative;overflow:hidden;z-index:1}
+.date{color:#fff;font-size:15px;margin-bottom:15px;font-weight: 700}
+.flex{display:flex}
+.flex-first{width:40%;order:2;padding:0 5px}
+.flex-center{width:30%;order:1;padding:0 5px}
+.flex-last{order:3;width:30%;padding:0 5px}
+.rela-top{display:block;background:url(../images/liuimgs/first.png) no-repeat;background-size:100% 100%;padding:18%;}
+.rela-top1{background:url(../images/liuimgs/center.png) no-repeat;background-size:100% 100%;padding:18%;display:block}
+.rela-img{ width:100%; margin:0 auto; border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ; }
+.rela-img1{width:80%;left:10%;bottom:0;position:absolute}
+.phone{color:#fff;font-size:12px;margin-top:5px}
+.gods{font-size:10px;height:34px;overflow:hidden;color:#fff}
+.speech{font-size:10px;color:#ffe057;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;height:30px;margin-top:5px;text-align: left}
+.flex-center{width:30%;padding:0 5px;order:1}
+.flex-pe{ align-items: flex-end;display:flex}
+.newgift{background:url(../images/liuimgs/negobg4.jpg) no-repeat;background-size:100% 100%;font-size:14px;text-align:center;}
+.newgift-entity{color:#fe4e4f;display:block;margin-top:20px;text-align:left}
+.newgift-img{width:15px;margin-left:8%}
+.m120{margin-left:20px}
+.newgift-entity1{display:block;color:#666;margin-top:20px;text-align:left}
+.mylist{display:inline-block;width:50%;background:#ff4f4f;padding:10px 0;margin:25px 0 40px;border-radius: 30px;color:#ffff;font-size:16px}
+.record{position:absolute;width:100%;height:100%;top:0;left:0;background:rgba(0,0,0,.7);z-index:102;display:flex;justify-content: center;align-items: center;text-align:center}
+.record-con{position:relative; width:85%; color:#ff4f4f; border:5px solid #ff5c5c; padding:20px; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px;min-height:250px;background:#fffdea}
+.record-con-text{padding:10px 0;border-bottom:1px dashed #ff4f4f;font-size:16px;font-weight:700;}
+.dog2{width:40%;bottom:94%;left:30%;position:absolute}
+.close{position:absolute;width:15%;right:-20px;top:-20px}
+.record-con ul{height:150px;overflow-y: scroll;}
+.record-con ul li{font-size:13px;margin-top:15px}
+.time{width:30%;display:inline-block}
+.close-name{display:inline-block;width:38%}
+.record-con ul li span{text-align:center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
