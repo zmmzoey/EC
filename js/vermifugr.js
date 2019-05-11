@@ -6,18 +6,16 @@ $(".right-more").on("touchstart",function(){
 
 //分页器
 
-var mySwiper = new Swiper('.swiper-container',{
+var mySwiper = new Swiper('.cat .swiper-container',{
   pagination: {
     el: '.swiper-pagination',
     type: 'fraction',
   },
 })
 // 左右滑动
-var mySwiper = new Swiper ('.one .swiper-container', {
-    // loop : true,
-    // slidesPerView : 2,
-    // loopedSlides :8,
-    // freeMode : true,
+var mySwiper = new Swiper ('.swiper-container', {
+         slidesPerView : 'auto',
+         loopedSlides :8,
 })
 //回到顶部
 function goTop(acceleration, time) {
