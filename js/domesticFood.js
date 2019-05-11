@@ -12,7 +12,7 @@ $(".right-more").on("touchstart", function(e) {
   });
   
   myScroll.on("scroll",function(){
-    console.log(this.x);
+    // console.log(this.x);
   });
 })()
 /* 维持健康体态下的品牌 */
