@@ -1,0 +1,60 @@
+
+header{width:100%;height:50px;background-color:white;position:relative}
+.wrap{width:100%}
+.headerText{margin:0 65px;text-align:center;font-size:18px;line-height:50px}
+.left-back{width:35px;height:35px;position:absolute;left:5px;top:7px;background:url(../images/liuimgs/icon.png);background-position: 0px 0px;background-size:35px auto}
+.right-more{width:35px;height:35px;position: absolute;right:5px;top:7px;background: url(../images/liuimgs/icon.png);background-position: 0 -70px;background-size:35px auto}
+.useinfo{overflow:hidden;background: url(../images/liuimgs/backgroundV420.jpg);width:100%}
+.fl{float:left}
+.fr{float:right;}
+.useinfoTp{margin-top:15px;}
+.useinfoTp-item{margin-left:5px}
+.useinfoTp-item-right{margin-right:5px}
+.useinfoTp-left{display:inline-block;}
+.useinfoTp-left-img{width:50%;display:block;margin:0 auto}
+.menuBox{overflow:hidden;display:none}
+.active{display:block}
+.menuBox-nav{height:65px;background-color:#fff;display:flex}
+.menuBox-nav-item{font-size:14px;color:#666;text-align:center;padding-top:11px;display:block;-webkit-box-flex: 1;flex:1}
+.menuBox-nav-item-list{display:block;margin:auto;width:25px;height:25px;background:url(../images/liuimgs/navIco.d8881a90.png);background-size:234px 163px}
+.mNavIco1{background-position: -172px -7px}
+.mNavIco2{background-position: -172px -49px}
+.mNavIco3{background-position: -172px -90px}
+.mNavIco4{background-position: -172px -133px}
+.useinfoCt{margin:30px 0;padding-left:10px;padding-right:10px }
+.useinfoCt-img{width:70px;height:70px;display:block;float:left}
+.useNmae{margin-left:80px;padding-top:8px}
+.grade{margin-top:15px;font-size:17px;color:white}
+.grade a{color:white}
+.useinfoBtm{padding-left:10px;padding-right:10px}
+.useinfoBtm-list{ background-color:#252525; border-radius:15px 15px 0px 0px; -webkit-border-radius:15px 15px 0px 0px; -moz-border-radius:15px 15px 0px 0px; -ms-border-radius:15px 15px 0px 0px; -o-border-radius:15px 15px 0px 0px;padding-bottom:5px;padding-right:20px;padding-top:5px }
+.useinfoBtm-list-item{width:25%}
+.useinfoBtm-list-item .db{display:block}
+.usephoto{ float:left;width:70px; height:70px; border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ; overflow: hidden;}
+.useinfoBtm-list-di{margin-left:20px}
+.useinfoBtm-list-img{width:100%;display:block}
+.mymould_20{margin-bottom:60px}
+.mymould_22{margin-bottom:30px}
+.pl10{padding-left:10px;padding-right:10px}
+.myorder{ box-shadow:1px 2px 25px 0px rgba(0,0,0,0.1); border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; -ms-border-radius:15px; -o-border-radius:15px; }
+.myorder-top{padding-left:10px;padding-right:10px;padding-top:10px}
+.myorder-top-left{font-size:16px}
+.myorder-bottom{padding-bottom:10px;margin-top:20px}
+.myorder-bottom-list{width:20%}
+.liimg-img{display:block;width:45%;margin:0 auto}
+.myorder-bottom-a{padding:0 8px;display:block;text-align:center}
+.ft12{font-size:12px}
+#myorder-bottom-list{border-left:1px solid #e7e7e7}
+.mymould_23{margin-bottom:30px;}
+.wallet{ padding:10px }
+.wallet-title{font-size:16px;display: block}
+.wallet-list{margin-top:20px}
+.wallet-list-item{width:25%;text-align:center}
+.bold{color:red;font-size:14px;display:block}
+.pl10-item{padding:10px;box-shadow:1px 2px 25px 0px rgba(0,0,0,0.1); border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; -ms-border-radius:15px; -o-border-radius:15px;}
+.mymould_25{margin-bottom:30px;font-size:16px}
+.mt20{margin-top:20px}
+.mymould_25-item{width:25%;margin-bottom:10px;margin-top:10px}
+.mymould_25-item-a{display:block;padding-left:5px;padding-right:5px;text-align:center}
+.liimg-img1{width:35%;display:block}
+.liimg-img1{margin:0 auto}
