@@ -1,0 +1,49 @@
+.fixedTop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    max-width: 640px;
+    min-width: 320px;
+    box-shadow: 0px 2px 2px #e9e9e9;
+}
+.bgfff {
+    background: #fff;
+}
+.content{
+    width: 100%;
+    max-width: 750px;
+}
+.sortBox ul {
+    padding: 11px 0;
+    font-size: 13px;
+    color: #666;
+    list-style: none;
+}
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.sortBox li {
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-right: 1px solid #e1e1e1;
+}
+.it1 {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+}
+.sortBg {
+    background: url(../images/newshop/price-sort.png) no-repeat;
+    background-size: 8px 12px;
+    background-position-y: center;
+    background-position-x: 70%;
+}   
