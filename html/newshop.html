@@ -9,7 +9,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/lycommon.css">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/lybrand.css">
     <link rel="stylesheet" href="../css/lynewshop.css">
     <script src="../js/rem.js"></script>
     <link rel="stylesheet" href="../css/swiper.min.css">
@@ -20,24 +19,26 @@
     <div class="content">
         <div class="header">
             <div class="title">
-                <div class="left-back"></div>
+                <a href="../index.html">
+                    <div class="left-back"></div>
+                </a>
                 <div>新品馆</div>
                 <div class="right-more"></div>
             </div>
             <div class="menu_list">
-                <a href="">
+                <a href="../index.html">
                     <span></span>
                     <p>首页</p>
                 </a>
-                <a href="">
+                <a href="./classify.html">
                     <span></span>
                     <p>商品分类</p>
                 </a>
-                <a href="">
+                <a href="./shoppingCar.html">
                     <span></span>
                     <p>购物车</p>
                 </a>
-                <a href="">
+                <a href="./mine.html">
                     <span></span>
                     <p>我的e宠</p>
                 </a>
@@ -83,23 +84,107 @@
                 <li>生活用品</li>
             </ul>
         </div>
-        <div class="sale-lists">
+        <div class="shop-lists">
+            <div id="pullrefresh" class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell">
 
-        </div>
+                            <div class=""><a><img src="../images/newshop/shop.jpg"></a>
+                                <div class=""><a class="">菲派Feel Pet 菲速达蜂能宠物营养膏 128g</a>
+                                    <p class="trips"></p>
+                                    <p><del class="">¥98.00</del></p>
+                                    <p class="price ">上新价: ¥<span class="">58.80</span><em class=""></em></p>
+                                </div>
+                            </div>
+
+
+                        </li>
+                        <li class="mui-table-view-cell">
+
+                                <div class=""><a><img src="../images/newshop/shop.jpg"></a>
+                                    <div class=""><a class="">菲派Feel Pet 菲速达蜂能宠物营养膏 128g</a>
+                                        <p class="trips"></p>
+                                        <p><del class="">¥98.00</del></p>
+                                        <p class="price ">上新价: ¥<span class="">58.80</span><em class=""></em></p>
+                                    </div>
+                                </div>
+    
+    
+                            </li>
+                            <li class="mui-table-view-cell">
+
+                                    <div class=""><a><img src="../images/newshop/shop.jpg"></a>
+                                        <div class=""><a class="">菲派Feel Pet 菲速达蜂能宠物营养膏 128g</a>
+                                            <p class="trips"></p>
+                                            <p><del class="">¥98.00</del></p>
+                                            <p class="price ">上新价: ¥<span class="">58.80</span><em class=""></em></p>
+                                        </div>
+                                    </div>
         
-    </div>
+        
+                                </li>
+                                <li class="mui-table-view-cell">
 
+                                        <div class=""><a><img src="../images/newshop/shop.jpg"></a>
+                                            <div class=""><a class="">菲派Feel Pet 菲速达蜂能宠物营养膏 128g</a>
+                                                <p class="trips"></p>
+                                                <p><del class="">¥98.00</del></p>
+                                                <p class="price ">上新价: ¥<span class="">58.80</span><em class=""></em></p>
+                                            </div>
+                                        </div>
+            
+            
+                                    </li>
+                                    <li class="mui-table-view-cell">
+
+                                            <div class=""><a><img src="../images/newshop/shop.jpg"></a>
+                                                <div class=""><a class="">菲派Feel Pet 菲速达蜂能宠物营养膏 128g</a>
+                                                    <p class="trips"></p>
+                                                    <p><del class="">¥98.00</del></p>
+                                                    <p class="price ">上新价: ¥<span class="">58.80</span><em class=""></em></p>
+                                                </div>
+                                            </div>
+                
+                
+                                        </li>  
+
+                                        
+                                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <script src="../js/swiper.min.js"></script>
     <script src="../js/mui.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            
+
             pagination: {
                 el: '.swiper-pagination',
             },
-            autoplay:true,
+            autoplay: true,
             loop: true,
         });
+    </script>
+    <script>
+        // mui.init({
+        //     pullRefresh : {
+        //         container:'#pullrefresh .mui-scroll',
+        //         up:{
+        //         height:50,
+        //         auto:true,
+        //         contentrefresh : "正在加载...",
+        //         contentnomore:'没有更多数据了',
+        //         callback :pullfresha
+        //         }
+        //     }
+        // });
+        // function pullfresha(){
+        //     console.log(1111);
+        // }
     </script>
 </body>
 

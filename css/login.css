@@ -1,0 +1,19 @@
+.login{
+    max-width: 640px;
+    margin: auto;
+}
+.re{
+    background: #fff;
+}
+.login .re .headTop{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    padding: 0 10px;
+    background-image: url(../images/imgw/encore.png);
+    background-repeat: no-repeat;
+    background-size: 35px auto;
+    left: 5px;
+    top: 7px;
+}
