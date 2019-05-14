@@ -47,3 +47,85 @@
     background-position-y: center;
     background-position-x: 70%;
 }   
+.list-top >p {
+    height: 37px;
+    line-height: 37px;
+    margin-right: 36px;
+}
+.discountBox {
+    width: 10%;
+    height: 36px;
+    top: 0;
+    right: 8px;
+    font-size: 12px;
+}
+.discountTop {
+    width: 36px;
+    background: #f15366;
+    height: 17px;
+}
+.discountBot {
+    width: 0;
+    height: 0;
+    border-top: 10px solid #f15366;
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+}
+.discountInfo {
+    top: 2px;
+    left: 0;
+    width: 36px;
+    text-align: center;
+    color: #fff;
+}
+.index-listimg {
+    width: 100px;
+    height: 100px;
+    font-size: 12px;
+}
+.loadimg-fixed {
+    background: url(../images/background/default-epet.png) no-repeat center center #f4f4f4;
+    background-size: 120px auto;
+    position: relative;
+}
+.index-listimg img {
+    width: 100%;
+}
+.index-listimg a{
+    display: block;
+}
+.index-listpro {
+    margin-left: 110px;
+    padding-right: 35px;
+}
+.index-listpro .towLine {
+    height: 32px;
+    line-height: 1.4;
+}
+.cf03e3e{
+    color: #f03e3e;
+}
+.save {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background-color: #ee4d52;
+    vertical-align: 1px;
+}
+.index-listpro :nth-child(3){
+    font-size: 0;
+}
+.cartBox {
+    bottom: 0px;
+    right: 10px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/newshop/shopcar.png) no-repeat;
+    background-size: 100% 100%;
+}
