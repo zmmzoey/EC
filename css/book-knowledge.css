@@ -1,0 +1,68 @@
+
+.wrap{background:#fff}
+.headerText{margin:0 65px;text-align:center;font-size:18px;line-height:50px}
+.left-back{width:35px;height:35px;position:absolute;left:5px;top:7px;background:url(../images/liuimgs/icon.png);background-position: 0px 0px;background-size:35px auto}
+.right-more{width:35px;height:35px;position: absolute;right:5px;top:7px;background: url(../images/liuimgs/icon.png);background-position: 0 -70px;background-size:35px auto}
+.top{width:100%;height:126px}
+.top-search{margin:10px 20px}
+.top-search1{ border:0;  width:90%; height:30px; background:transparent;outline: none}
+.top-img{width:15px;height:15px;margin:0 10px}
+.top-search-item{ background:#f7f7f7; border-radius:0 30px 30px 30px; -webkit-border-radius:0 30px 30px 30px; -moz-border-radius:0 30px 30px 30px; -ms-border-radius:0 30px 30px 30px; -o-border-radius:0 30px 30px 30px; }
+.nav-age{border-bottom:1px solid #f3f4f5;font-weight:400;font-size:12px;height:36px}
+.w92{width:92%;margin:0 auto;display:flex}
+.nav-items{margin-right:20px}
+.nav-behind{width:92%;margin:15px auto;font-weight:400;font-size:12px;display:flex}
+.behind-items{margin-right:30px}
+.behind-img{width:12px;height:12px;margin-right:3px}
+.main-list{margin-top:2px}
+.list-content{ width:92%; margin:0 auto 20px; box-shadow: 0px 10px 25px 0px rgba(23,23,23,0.1); border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px; }
+.list-video{padding:15px}
+.content-top{width:100%}
+.content-top-a{display:inline-block;width:100%;height:100%;overflow:hidden}
+.img-video{width:125px;height:70px;float:left}
+.content-img{ width:100%; height:100%; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; }
+.content-title{width:calc(100% - 125px);height:100%;padding-left:10px;float:left}
+.twoLine{font-size:14px;font-weight: 500}
+.content-txt{font-weight:300;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;margin-top:8px;color:#999}
+.content-bottom{margin-top:4px;overflow:hidden}
+.fl{float:left}
+.db{display:inline-block}
+.autor{ width:23px; height:23px; border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ; }
+.ft12{font-size:12px}
+.c999{color:#999}
+.w16{width:16px}
+.collect{width:53px;text-align:left;float:right}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
