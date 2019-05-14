@@ -80,57 +80,19 @@
     width: 100%;
     line-height: 2.5rem;
     margin-top: 2.4rem;
-    border-radius: 30px;
+    border-radius: 5px;
     font-size: 1.32rem;
     text-align: center;
     display: block;
     text-decoration: none;
     width: 34rem
 }
-.box .main .middle .mt{
-    font-size: 0.12rem;
-    margin-top: 15px;
-    overflow: hidden;
-}
-.box .main .middle .mt .ft1 {
-    float: left;
-}
-.tg {
-    text-decoration: none;
+.box .main .bottom{
     color: #333;
-}
-.box .main .middle .mt .ft2 {
-    float: right;
-}
-.box .main .bottom {
-    margin-top: 6rem;
-    width: 34rem;
-}
-.box .main .bottom img {
-    width: 100%;
-    vertical-align: middle;
-}
-.box .main .bottom .loginther {
-    margin-bottom: 0.2rem;
-    margin-top: 0.12rem;
-    overflow: hidden;
-}
-.box .main .bottom .loginther a {
-    width: 50%;
+    padding: 10px;
     text-align: center;
-    float: left;
+    font-size: 0.2rem
 }
-.box .main .bottom .loginther a img {
-    width: 2.3rem;
-    height: 100%;
-    margin: 0 auto;
-}
-.box .main .bottom .mb {
-    color: #333;
-    margin-bottom: 0.15rem;
-    text-align: center;
-    font-size: 0.12rem;
-}
-.box .main .bottom .agre {
-    color: #FF5757;
+.box .main .bottom .red{
+    color: #ff5757;
 }
