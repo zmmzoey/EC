@@ -3,8 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.fl{
+  float: left;
+}
+.fr{
+  float:right;
+}
 body {
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 div {
   display: block;
@@ -16,7 +22,7 @@ img {
 .all {
   max-width: 7.5rem;
   margin: auto;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .flex {
   display: flex;
@@ -99,6 +105,7 @@ img {
 .nologin{
     position: relative;
     height: 100vh;
+    display: none;
 }
 .nologin .empty{
     height: 205px;
@@ -145,4 +152,107 @@ img {
   width: 100px;
   text-align: center;
   margin: 0 auto;
+}
+.main{
+  max-width: 750px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+.main .mycar input{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  border: 1px solid #d7d7d7;
+background-color: #fff;
+outline: 0!important;
+}
+.main .mycar .tip{
+  height: 45px;
+}
+.main .mycar .tip .checkbox{
+  padding: 12px;
+}
+.main .mycar .tip .checkbox input{
+  float:left;
+}
+.main .mycar .tip .checkbox span,input,b{
+  margin-right: 10px;
+}
+.main .mycar .tip .checkbox span{
+  background: none;
+  color: #333;
+  font-size: 15px;
+  margin-right: 0;
+  padding: 0px 5px 1px 0px;
+  display: inline-block;
+  border-radius: 3px;
+  float:left;
+}
+.main .mycar .tip .checkbox b{
+  background: #fbeacf;
+  border: 1px solid #fbeacf;
+  color: #ecb44b;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  line-height: 16px;
+  display: inline-block;
+  font-size: 13px;
+  text-align: center;
+  float: left;
+  margin-top: 5px;
+}
+.main .mycar .checked{
+  background:#ea5858;
+  border-radius:1px solid #ea5858;
+
+}
+.main .mycar .store{
+  padding: 0 0 0 12px;
+  height: 110px;
+}
+.main .mycar .store input{
+  line-height: 110px;
+}
+.main .mycar .store .commodity{
+  border-bottom: 1px solid #ebebeb
+}
+.main .footer{
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #ebebeb;
+}
+.main .footer .all-price{
+  line-height: 60px;
+  margin-left: 12px;
+}
+.main .footer .all-price input{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #d7d7d7;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  -webkit-appearance: none
+}
+.main .footer .all-price span i{
+  color: #f03e3e;
+  font-weight: 700;
+}
+.main .footer .gobuy{
+  width: 85px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin:12px 10px;
+  background-color: #f03e3e;
+  border-radius: 5px;
+  color: #fff;
 }
