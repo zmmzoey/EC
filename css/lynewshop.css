@@ -10,13 +10,18 @@
     width: 100%;
 }
 .swiper-pagination {
-    top: 1.85rem;
+    top: 2.8rem;
+}
+.swiper-container .swiper-wrapper .swiper-slide a img{
+    width: 100%;
 }
 .swiper-container .swiper-pagination .swiper-pagination-bullet-active{
     background: #fff;
     width: 15px;
     border-radius: 10px;
+    
 }
+
 .lists-tab{
     height: 44px;
     background: #fefefe;
@@ -146,4 +151,7 @@
     right: 0;
     position: absolute;
     font-style: normal;
+}
+.new a img{
+    width: 100%;
 }
