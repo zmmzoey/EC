@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>购物车</title>
+    <script src="../js/rem.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/shoppingCar.css">
 </head>
 <body>
-    
+    <div class="all">
+         <!-- 头部 -->
+         <div class="headbox">
+            <div class="header border-b">
+                <a class="left-back clearfix" href="../index.html"></a>
+                <div class="header-text">购物车</div>
+                <div class="right-more">
+                </div>
+            </div>
+            <div class="menubox active">
+                <div class="menu-nav flex">
+                    <a href="../index.html">
+                        <span class="ico1"></span>
+                        <div>首页</div>
+                    </a>
+                    <a href="./classify.html">
+                        <span class="ico2"></span>
+                        <div>商品分类</div>
+                    </a>
+                    <a href="./shoppingCar.html">
+                        <span class="ico3"></span>
+                        <div>购物车</div>
+                    </a>
+                    <a href="./mine.html">
+                        <span class="ico4"></span>
+                        <div>我的e宠</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 主体部分 -->
+        <div class="nologin">
+            <div class="empty">
+                <div class="emptyimg">
+                    <div class="emt" data-reactid=".0.0.0.0.0">&nbsp;</div>
+                </div>
+                <div class="emptytip">
+                    <p>您的购物车空空如也</p>
+                </div>
+                <div class="empty-a" >
+                    <a href="../index.html">随便逛逛</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="mycar">
+                <div class="tip">
+                    <div class="checkbox">
+                        <input type="radio" class="checked">
+                        <span>E宠西部中央仓</span>
+                        <b>?</b>
+                    </div>
+                </div>
+                <div class="store">
+                    <input type="radio" class="checked">
+                    <div class="commodity"></div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="all-price fl">
+                    <input type="checkbox">
+                    <span>总额：<i>￥347.00</i></span>
+                </div>
+                <div class="buy fr">
+                    <div class="gobuy">去结算(<span>3</span>)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="../js/zepto.min.js"></script>
+<script src="../js/touch.js"></script>
+<script src="../js/shoppingCar.js"></script>
 </body>
 </html>

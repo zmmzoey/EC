@@ -238,7 +238,7 @@ img {
 .moudle .most .square{
     display: inline-block;
     margin-left: 5px;
-    width: 49%;
+    width: 48%;
     padding: 0 5px;
     border: 1px solid #f1f1f1;
     border-radius: 10px;
@@ -249,8 +249,6 @@ img {
     padding: 15px;
 }
 .moudle .most .square .tiaozhuan .baozhuang{
-    width: 200px;
-    height: 200px; 
     margin: 0 auto;
 }
 .c33{
@@ -277,3 +275,14 @@ img {
     float: right;
     margin-bottom: 15px;
 }
+.moudle .backtop{
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  background: url(../images/imgh/top.png) no-repeat;
+  background-size: 100% auto;
+  z-index: 10;
+}
+
