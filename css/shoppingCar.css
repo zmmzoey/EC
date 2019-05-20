@@ -9,20 +9,17 @@
 .fr{
   float:right;
 }
-body {
-  /* background-color: #fff; */
-}
 div {
   display: block;
 }
 img {
   width: 100%;
   display: block;
+  font-size: 0;
 }
 .all {
   max-width: 7.5rem;
   margin: auto;
-  /* background-color: #fff; */
 }
 .flex {
   display: flex;
@@ -158,16 +155,6 @@ img {
   margin-top: 10px;
   background-color: #fff;
 }
-.main .mycar input{
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  -webkit-appearance: none;
-  border: 1px solid #d7d7d7;
-background-color: #fff;
-outline: 0!important;
-}
 .main .mycar .tip{
   height: 45px;
 }
@@ -176,6 +163,12 @@ outline: 0!important;
 }
 .main .mycar .tip .checkbox input{
   float:left;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d7d7d7;
+  background-color: #fff;
+  position: relative;
+  margin-top: 4px;
 }
 .main .mycar .tip .checkbox span,input,b{
   margin-right: 10px;
@@ -212,13 +205,65 @@ outline: 0!important;
 .main .mycar .store{
   padding: 0 0 0 12px;
   height: 110px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #e5e5e5
 }
-.main .mycar .store input{
-  line-height: 110px;
+
+.store .left input{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d7d7d7;
+  background-color: #fff;
 }
-.main .mycar .store .commodity{
-  border-bottom: 1px solid #ebebeb
+.store .middle{
+  width: 2rem;
 }
+.store .middle img{
+  width: 100%;
+  height: 110px;
+}
+.store .right .top p{
+  font-size: 13px;
+}
+.store .right .top .p3{
+  color: #f03e3e;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.main .mycar .store .right .bottom{
+  height: 30px;
+margin-left: 20px;
+}
+.store .right .bottom span{
+  font-size: 13px;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  line-height: 18px;
+}
+.store .right .bottom .s1{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 1px solid #d7d7d7;
+  border-right: 1px solid #666
+}
+.store .right .bottom input{
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid #666;
+  border-left: none;
+  border-right: none;
+  margin-right: 0px;
+}
+.main .mycar .store .right .bottom .s2{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius:8px;
+  border: 1px solid #666;
+} */
 .main .footer{
   position:fixed;
   bottom: 0;
@@ -237,10 +282,13 @@ outline: 0!important;
   height: 20px;
   margin-right: 5px;
   border: 1px solid #d7d7d7;
+  background:  #f03e3e;
   border-radius: 50%;
   display: inline-block;
   position: relative;
-  -webkit-appearance: none
+  /* -webkit-appearance: none */
+  position: relative;
+  margin-top: 21px;
 }
 .main .footer .all-price span i{
   color: #f03e3e;
