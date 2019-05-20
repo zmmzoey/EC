@@ -1,0 +1,57 @@
+
+
+header{background:url(../images/liuimgs/title1.65b3df3e\ \(1\).png);background-size:100% 100%}
+.headerText{margin:0 65px;text-align:center;font-size:18px;line-height:50px}
+.left-back{width:35px;height:35px;position:absolute;left:5px;top:7px;background:url(../images/liuimgs/icon.png);background-position: 0px 0px;background-size:35px auto}
+.right-more{width:35px;height:35px;position: absolute;right:5px;top:7px;background: url(../images/liuimgs/icon.png);background-position: 0 -70px;background-size:35px auto}
+#certify{position:relative;width:100%;margin:0 auto;padding:20px 20px;background:url(../images/liuimgs/swiperbg1.7ecd62d6.png);background-size:100% 100%}
+.recommend_title{height:23px;overflow:hidden;color:#333;font-size:14px}
+.recommend_desc{height:30px;line-height:15px;font-size:10px;color:#333;margin-top:5px}
+.recoming{display:block;width:80%;margin:15px auto 0}
+.tip1{width:20%;right:0;z-index:-1;top:40%;display:block;position:absolute}
+.tip2{width:8%;left:0;z-index:-1;bottom:10%;position:absolute;display:block}
+.tip3{width:10%;left:30%;z-index:-1;top:0;display:block;position:absolute}
+.goods{padding:0 20px 25px;background:#fff;margin-bottom:10px}
+.goods-title{font-size:20px;color:#333}
+.description{color:#333;font-size:14px;margin-top:5px}
+.price{display:flex;align-items: center;justify-content: space-between;margin-top:5px;}
+.price-left{color:#ff5757;font-size:14px}
+.vouchers{background:url(../images/liuimgs/quan.png);background-size:100% 100%;padding:2px 5px;height:18px;line-height:18px}
+.line-m{text-decoration: line-through;font-size:10px;color:#999}
+.btnno{ background:#c3c3c3; padding:0 12.5px; height:25px; line-height:25px; border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px; -ms-border-radius:20px; -o-border-radius:20px;font-size:11px;display:inline-block;text-align:center;color:white }
+.goodtype{background:#f3f4f5}
+.topNav{background:url(../images/liuimgs/goodtype.6a50e16e.png) no-repeat;background-size:100% 100%;margin-bottom:15px;}
+.nav-contain{height:44px;margin-bottom:15px;display:flex;justify-content:space-around;line-height:44px}
+.goodType-content{ padding:20px 10px 10px; background:#fff; margin:0 10px 10px; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; }
+.content-top{ border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; display:flex;margin-bottom:10px;}
+.content-top-left{width:30%;height:100%;margin-right:10px}
+.content-img{width:100%;height:100%;min-height:84px;}
+.content-top-right{flex-direction:column;flex:1;position:relative} 
+.right-top{display:flex;color:#333;font-size:13px}
+.right-description{display:inline-block;background:#333;border-bottom-left-radius:20px;border-bottom-right-radius:20px;border-top-right-radius:20px;padding:0 5px;height:16px;line-height:16px;vertical-align: baseline;font-size:9px;color:#fff}
+.overhide{text-overflow:ellipsis;overflow:hidden;height:16px;line-height:16px}
+.vouchers{background:url(../images/liuimgs/dwaf.png) no-repeat;background-size:100% 100%;padding:2px 5px;height:18px;line-height:18px;font-size:10px;color:#ff5757}
+.right-bottom{position:absolute;bottom:0;left:0;width:100%;display:flex;justify-content:space-between;align-items:center}
+.bottom-currency{color:#ff5757;font-size:14px}
+.bottom-price{color:#999;font-size:10px;text-decoration:line-through}
+.exprience{ display:inline-block; height:25px; line-height:25px; background:#c3c3c3; padding:0 12.5px; font-size:11px; border-radius:20px ; -webkit-border-radius:20px ; -moz-border-radius:20px ; -ms-border-radius:20px ; -o-border-radius:20px ; color:#fff}
+.content-bottom{border-top:1px dashed #e7e6e5;padding-top:10px}
+.content-items{display:flex;color:#333;justify-content: space-between;align-items:center}
+.content-picture{width:60px;height:30px;border:1px solid #e7e7e7;vertical-align: middle;}
+.bottom-txt{color:#333;font-size:12px;}
+.bottom-picture{width:4px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

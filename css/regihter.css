@@ -1,0 +1,98 @@
+.box{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+.box .main{
+    /* max-width: 750px; */
+    margin: auto;
+    width: 100%;
+    width: 35rem;
+}
+.box .main .headTop{
+    height: 2.5rem;
+    line-height: 1.5rem;
+    position: relative;
+    padding: 0 0.1rem;
+    
+}
+.box .main .headTop .icon{
+    background-image:url(../images/imgw/backk.png);
+    background-repeat: no-repeat;
+    font-size: 0.44rem;
+    cursor: pointer;
+    height: 2.4rem;
+}
+.box .main .middle{
+    padding: 1.1rem 2.4rem;
+    width: 35rem;
+}
+.box .main .middle .mes{
+    color: #333;
+    font-size: 1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    font-weight: 700
+}
+.input{
+    padding: 1.25rem 0;
+    width: 34rem;
+    outline:none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+.box .main .middle .mid .inp1{
+       position: relative;
+}
+.box .main .middle .mid .inp1 .get{
+    position: absolute;
+    right: 1.95rem;
+    bottom: -5px;
+}
+.box .main .middle .mid .inp2 {
+    position: relative;
+}
+.box .main .middle .mid .inp2 .ic{
+    width: 28px;
+    height: 18px;
+    right: 15px;
+    bottom: 18px;
+    background-image: url(../imgs/img/1.png);
+    background-repeat: no-repeat;
+    background-size: 40px 200px;
+    background-position: -5px 0;
+    position: absolute;
+}
+.box .main .middle .mid .inp1 .get .letter{
+    padding: 0.2rem 0.6rem;
+    border-radius: 50px;
+    border: solid 1px #F03E3E;
+    right: 0;
+    bottom: 0.1rem;
+    color: #F03E3E;
+    display: block;
+    font-size:0.12rem;
+}
+.box .main .middle .login .btn{
+    background: #f0f0f0;
+    color: #bfbfbf;
+    width: 100%;
+    line-height: 2.5rem;
+    margin-top: 2.4rem;
+    border-radius: 5px;
+    font-size: 1.32rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 34rem
+}
+.box .main .bottom{
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.2rem
+}
+.box .main .bottom .red{
+    color: #ff5757;
+}

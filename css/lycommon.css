@@ -34,6 +34,7 @@
 .header .menu_list{
     display: flex;
     height: 65px;
+    overflow: hidden;
 }
 .header .menu_list a{
     flex: 1;

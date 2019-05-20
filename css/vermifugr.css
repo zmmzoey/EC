@@ -1,5 +1,5 @@
 .box{
-    /* max-width: 750px; */
+    max-width: 750px;
     margin: 0 auto;
     background:#fff 
 }
@@ -79,6 +79,9 @@ a img{
     height: 4.80rem;
     display: block;
 }
+.gf img{
+    width: 100%
+}
 /* 体外驱虫 */
 .ver{
     display: flex
@@ -143,7 +146,9 @@ a img{
     height: 40px;
 }
 .tool img{
-    display: block
+    display: block;
+    width: 100%;
+    height: 40px;
 }
 .pet{
     margin-bottom: 40px;
@@ -244,12 +249,8 @@ a img{
     height: 0.19rem;
     position: absolute;
 }
-.shopper{
-    background: rgb(255, 255, 255);
-}
 .shop{
-    margin-top:20px;
-    
+    margin-top:20px; 
 }
 .shop ul{
     padding-left: 5px;
@@ -263,6 +264,8 @@ a img{
     padding: 0 5px;
     position: relative;
     display: flex;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
 }
 .shop ul .squre{
     border: 1px solid #f1f1f1;
@@ -270,17 +273,23 @@ a img{
 }
 .shop ul .squre a{
     padding: 0.15rem;
+    display: block;
+    /* text-align: center; */
+}
+.shop ul .squre a .inner{
     text-align: center;
 }
 .shop ul .squre a img{
     width: 2rem;
     height: 2rem;
+    display: block;
+    margin: 0 auto
 }
 .shop ul .letter{
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    font-size: 0.24rem;
+    font-size: 0.22rem;
     color: #333;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -318,7 +327,7 @@ a img{
 
 
 /* 回到顶部 */
-.backtop{
+/* .backtop{
     background: url(../images/imgw/3png.png) no-repeat;
     position: fixed;
     right:10px;
@@ -326,4 +335,4 @@ a img{
     height: 28px;
     background-size: 100% auto;
     bottom: 50px
-}
+} */
