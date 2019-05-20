@@ -2,4 +2,18 @@
 $(".right-more").on("touchstart",function(e){
     $(".menubox").toggleClass("active")
 })
-// 如果选中让单选框变为红色
+// 选择框
+!(function(){
+   var num=0; 
+   $('.checked1').tap(function(){
+       if($(this).prop('checked')){
+           num++
+       }
+       console.log(num)
+       if(num == $('.checked1').length){
+           $('.checked2').prop('checked',this.checked)
+       }
+   })
+})();
+
+

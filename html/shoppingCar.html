@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,11 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/shoppingCar.css">
 </head>
+
 <body>
     <div class="all">
-         <!-- 头部 -->
-         <div class="headbox">
+        <!-- 头部 -->
+        <div class="headbox">
             <div class="header border-b">
                 <a class="left-back clearfix" href="../index.html"></a>
                 <div class="header-text">购物车</div>
@@ -41,6 +43,7 @@
             </div>
         </div>
         <!-- 主体部分 -->
+        <!-- 未登录 -->
         <div class="nologin">
             <div class="empty">
                 <div class="emptyimg">
@@ -49,38 +52,57 @@
                 <div class="emptytip">
                     <p>您的购物车空空如也</p>
                 </div>
-                <div class="empty-a" >
+                <div class="empty-a">
                     <a href="../index.html">随便逛逛</a>
                 </div>
             </div>
         </div>
+        <!-- 登录 -->
         <div class="main">
             <div class="mycar">
                 <div class="tip">
                     <div class="checkbox">
-                        <input type="radio" class="checked">
+                        <input type="checkbox" class="checked2">
                         <span>E宠西部中央仓</span>
                         <b>?</b>
                     </div>
                 </div>
-                <div class="store">
-                    <input type="radio" class="checked">
-                    <div class="commodity"></div>
+                <div class="store clearfix">
+                    <div class="left fl">
+                        <input type="checkbox">
+                    </div>
+                    <div class="middle fl">
+                        <img src="../images/imgh/d18.jpg" alt="">
+                    </div>
+                    <div class="right fl clearfix">
+                        <div class="top fl">
+                            <p>麦克哈特 无骨三文鱼果蔬全犬粮</p>
+                            <p>1.8kg</p>
+                            <p class="p3">￥138.00</span>
+                        </div>
+                        <div class="bottom fl">
+                            <span class="s1">-</span>
+                            <input type="text" value="1">
+                            <span class="s2">+</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer">
                 <div class="all-price fl">
-                    <input type="checkbox">
-                    <span>总额：<i>￥347.00</i></span>
+                    <input type="checkbox" class="checked2">
+                    <span>总额：<i>￥0.00</i></span>
                 </div>
                 <div class="buy fr">
-                    <div class="gobuy">去结算(<span>3</span>)</div>
+                    <div class="gobuy">去结算(<span>1</span>)</div>
                 </div>
             </div>
         </div>
+
     </div>
-<script src="../js/zepto.min.js"></script>
-<script src="../js/touch.js"></script>
-<script src="../js/shoppingCar.js"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/touch.js"></script>
+    <script src="../js/shoppingCar.js"></script>
 </body>
+
 </html>
