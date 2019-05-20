@@ -89,9 +89,14 @@ h6 {
 .bold {
     font-weight: 700
 }
-
+.p1{
+    width: 100%;
+}
+.p5{
+    width: 50%;
+}
 .main {
-    max-width: 640px;
+    /* max-width: 640px; */
     margin: auto
 }
 
@@ -577,7 +582,6 @@ b {
     font-size: 14px;
     text-align: center
 }
-
 .btn:active {
     background: #f96f6f;
     color: #fff

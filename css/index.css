@@ -190,4 +190,104 @@ body{
     font-size: 12px;
     color: #999;
   }
- 
+ .con4 .mui-slider{
+   text-align: center;
+   width: 95%;
+   margin-top: 40px;
+   margin:  0 auto;
+ }
+ .con4 .mui-slider img{
+   padding: 0.1rem;
+   border-radius:0.3rem;
+ }
+ .con4 .mui-slider .mui-slider-group .mui-slider-item img.p5{
+  width: 50%;
+  float: left;
+ }
+ .con4 .title,.con5 .title,.con6 .title{
+   padding:0 0.2rem; 
+ }
+ .con4 .title .fl,.con5 .title .fl,.con6 .title .fl{
+  font-weight: 800;
+  font-size: 0.16rem;
+ }
+ .con4 .title .fr,.con5 .title .fr,.con6 .title .fr{
+   font-size: 0.14rem;
+ }
+ .con5{
+   margin: 20px 0;
+   text-align: center
+ }
+ .con5 .title{
+   margin: 10px 0;
+ }
+ .con5 .mui-slider .mui-slider-group .mui-slider-item img{
+   width: 95%;
+   border-radius: 0.2rem;
+ }
+ .con6{
+   margin-top: 20px;
+ }
+ .con6 .title{
+   margin: 10px 0;
+   padding: 0 0.2rem;
+ }
+ .con6 .mui-slider-item a{
+   display: inline-block;
+   width:95%;
+   height: 1.8rem;
+   margin: 0 auto;
+   background-color: #fff;
+   padding: 0.2rem;
+   border-radius: 0.15rem;
+   box-shadow: 1px 2px 25px 6px rgba(0,0,0,0.2);
+  }
+  .con6 .mui-slider .fl{
+    margin-top: 0.1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #999;
+  }
+  .con6 .mui-slider .fl img{
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .con6 .mui-slider .fr{
+    margin-top: 0.1rem;
+    width: 5.4rem;
+    height: 1.2rem;
+    /* background-color: #999; */
+  }
+  .con6 .mui-slider .fr p.desc{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.14rem;  
+  }
+  .con6 .mui-slider .fr p{
+    margin-bottom: 0.05rem;
+    color: #333;
+    height: 0.20rem;
+    line-height: 0.20rem;
+    font-size: 0.12rem;
+  }
+  .con6 .mui-slider .fr p.tag span{
+    display: inline-block;
+    background: #41c856;
+    border-radius: 0.15rem;
+    padding: 0 0.06rem;
+    margin-right: 0.02rem;
+    color: #fff;
+  }
+  .con6 .mui-slider .fr #price{
+    font-size: 0.14rem;
+    color: #ff5757;
+    font-weight: 600;
+  }
+  .con6 .mui-slider .fr .new{
+    font-size: 0.12rem;
+    display: inline-block;
+    border: 1px solid #333;
+    border-bottom-right-radius: 0.08rem;
+    border-top-left-radius: 0.08rem;
+    padding: 0 0.05rem;
+  }
