@@ -78,3 +78,8 @@ body{
     font-size: 12px;
     color: #fff;
 }
+.posfixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
